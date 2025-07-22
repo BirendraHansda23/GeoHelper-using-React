@@ -46,8 +46,9 @@ export default async function searchCountry(countryName) {
     };
 
     const images = await fetchCountryImages(country.name.common);
+    const randomIndex = Math.floor(Math.random() * 5 - 1);
     const imageData = {
-      src: images[0] || "/fallback-image.jpg", // fallback if no image
+      src: images[randomIndex] || "/fallback-image.jpg", // fallback if no image
       alt: `Scenic view of ${country.name.common}`,
     };
 
