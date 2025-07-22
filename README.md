@@ -35,25 +35,34 @@ GeoHelper is a React-based web application that enables users to explore countri
 
 ### 📥 1. Clone the Repository
 
+```
 git clone https://github.com/BirendraHansda23/GeoHelper-using-React.git
+
 cd GeoHelper-using-React
 
+```
 ### 📦 2. Install Dependencies
 
+```
 npm install
 
-### 🔑 3. Add API Key
+```
 
+### 🔑 3. Add API Key
+```
 Create a `.env` file in the root directory and add your Pexels API key:
 
 VITE_PEXELS_API_KEY=your_pexels_api_key_here
 
+```
 > 💡 You can get an API key by signing up at [Pexels Developer Portal](https://www.pexels.com/api/).
 
 ### 🚀 4. Start Development Server
 
+```
 npm run dev
 
+```
 ---
 
 ## **Usage**
@@ -65,7 +74,6 @@ npm run dev
    - Country scenic image
    - Detailed information (capital, region, currency, etc.)
 
----
 
 ## **API References**
 
