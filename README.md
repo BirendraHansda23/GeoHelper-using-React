@@ -1,12 +1,36 @@
-# React + Vite
+# **GeoHelper**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GeoHelper is a React-based web application that allows users to explore countries by searching their names.  
+It fetches detailed country data (like capital, region, languages, and population) from the **REST Countries API** and displays beautiful country-related images fetched from the **Pexels API**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **Features**
 
-## Expanding the ESLint configuration
+- Search for any country by name.
+- View country details like:
+  - Capital, Region, Area, Population, Timezones.
+  - Languages and Currencies.
+- Displays the country flag.
+- Shows a random scenic image of the country (via Pexels API).
+- Smooth auto-scroll to the results section.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## **Tech Stack**
+
+- **React + Vite** for frontend.
+- **Tailwind CSS** for styling.
+- **REST Countries API** for country data.
+- **Pexels API** for images.
+
+---
+
+## **Installation**
+
+### **1. Clone the Repository**
+
+```bash
+git clone https://github.com/<your-username>/<your-repo-name>.git
+cd <your-repo-name>
+```
