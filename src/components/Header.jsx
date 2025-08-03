@@ -12,7 +12,7 @@ export function Header(){
 
             <a
                 target="_blank"
-                href="https://github.com/BirendraHansda23/GeoHelper"
+                href="https://github.com/BirendraHansda23/GeoHelper-using-React"
                 >About Project
             </a>
             </nav>
